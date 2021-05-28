@@ -209,7 +209,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Generic Maintenance"
 	// ambience_index = AMBIENCE_MAINT
 	ambientsounds = MAINTENANCE
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 	// airlock_wires = /datum/wires/airlock/maint
 	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
 
@@ -1035,7 +1034,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/engineering/atmospherics_engine
 	name = "Atmospherics Engine"
 	icon_state = "atmos_engine"
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 
 /area/engineering/lobby
 	name = "Engineering Lobby"
@@ -1044,7 +1042,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/engineering/supermatter
 	name = "Supermatter Engine"
 	icon_state = "engine_sm"
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/engineering/break_room
@@ -1084,7 +1081,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/engineering/storage/tcomms
 	name = "Telecomms Storage"
 	icon_state = "tcom"
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 	clockwork_warp_allowed = FALSE
 
 //Engineering - Construction
@@ -1608,7 +1604,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/science/test_area
 	name = "Toxins Test Area"
 	icon_state = "tox_test"
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 
 /area/science/mixing
 	name = "Toxins Mixing Lab"
@@ -1617,7 +1612,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/science/mixing/chamber
 	name = "Toxins Mixing Chamber"
 	icon_state = "tox_mix_chamber"
-	area_flags = BLOBS_ALLOWED | UNIQUE_AREA
 
 /area/science/misc_lab
 	name = "Testing Lab"
